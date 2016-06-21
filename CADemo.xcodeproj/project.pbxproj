@@ -1,0 +1,540 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		226959CD1C858528004C9887 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 226959CC1C858528004C9887 /* main.m */; };
+		226959D01C858528004C9887 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 226959CF1C858528004C9887 /* AppDelegate.m */; };
+		226959D31C858528004C9887 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 226959D21C858528004C9887 /* ViewController.m */; };
+		226959D61C858528004C9887 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 226959D41C858528004C9887 /* Main.storyboard */; };
+		226959D91C858528004C9887 /* CADemo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 226959D71C858528004C9887 /* CADemo.xcdatamodeld */; };
+		226959DB1C858528004C9887 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 226959DA1C858528004C9887 /* Assets.xcassets */; };
+		226959DE1C858528004C9887 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 226959DC1C858528004C9887 /* LaunchScreen.storyboard */; };
+		226959E91C858528004C9887 /* CADemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 226959E81C858528004C9887 /* CADemoTests.m */; };
+		226959F41C858528004C9887 /* CADemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 226959F31C858528004C9887 /* CADemoUITests.m */; };
+		22695A021C858756004C9887 /* 2.png in Resources */ = {isa = PBXBuildFile; fileRef = 22695A011C858756004C9887 /* 2.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		226959E51C858528004C9887 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 226959C01C858528004C9887 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 226959C71C858528004C9887;
+			remoteInfo = CADemo;
+		};
+		226959F01C858528004C9887 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 226959C01C858528004C9887 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 226959C71C858528004C9887;
+			remoteInfo = CADemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		226959C81C858528004C9887 /* CADemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CADemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		226959CC1C858528004C9887 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		226959CE1C858528004C9887 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		226959CF1C858528004C9887 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		226959D11C858528004C9887 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		226959D21C858528004C9887 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		226959D51C858528004C9887 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		226959D81C858528004C9887 /* CADemo.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CADemo.xcdatamodel; sourceTree = "<group>"; };
+		226959DA1C858528004C9887 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		226959DD1C858528004C9887 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		226959DF1C858528004C9887 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		226959E41C858528004C9887 /* CADemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CADemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		226959E81C858528004C9887 /* CADemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CADemoTests.m; sourceTree = "<group>"; };
+		226959EA1C858528004C9887 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		226959EF1C858528004C9887 /* CADemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CADemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		226959F31C858528004C9887 /* CADemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CADemoUITests.m; sourceTree = "<group>"; };
+		226959F51C858528004C9887 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		22695A011C858756004C9887 /* 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 2.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		226959C51C858528004C9887 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		226959E11C858528004C9887 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		226959EC1C858528004C9887 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		226959BF1C858528004C9887 = {
+			isa = PBXGroup;
+			children = (
+				226959CA1C858528004C9887 /* CADemo */,
+				226959E71C858528004C9887 /* CADemoTests */,
+				226959F21C858528004C9887 /* CADemoUITests */,
+				226959C91C858528004C9887 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		226959C91C858528004C9887 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				226959C81C858528004C9887 /* CADemo.app */,
+				226959E41C858528004C9887 /* CADemoTests.xctest */,
+				226959EF1C858528004C9887 /* CADemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		226959CA1C858528004C9887 /* CADemo */ = {
+			isa = PBXGroup;
+			children = (
+				22695A011C858756004C9887 /* 2.png */,
+				226959CE1C858528004C9887 /* AppDelegate.h */,
+				226959CF1C858528004C9887 /* AppDelegate.m */,
+				226959D11C858528004C9887 /* ViewController.h */,
+				226959D21C858528004C9887 /* ViewController.m */,
+				226959D41C858528004C9887 /* Main.storyboard */,
+				226959DA1C858528004C9887 /* Assets.xcassets */,
+				226959DC1C858528004C9887 /* LaunchScreen.storyboard */,
+				226959DF1C858528004C9887 /* Info.plist */,
+				226959D71C858528004C9887 /* CADemo.xcdatamodeld */,
+				226959CB1C858528004C9887 /* Supporting Files */,
+			);
+			path = CADemo;
+			sourceTree = "<group>";
+		};
+		226959CB1C858528004C9887 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				226959CC1C858528004C9887 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		226959E71C858528004C9887 /* CADemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				226959E81C858528004C9887 /* CADemoTests.m */,
+				226959EA1C858528004C9887 /* Info.plist */,
+			);
+			path = CADemoTests;
+			sourceTree = "<group>";
+		};
+		226959F21C858528004C9887 /* CADemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				226959F31C858528004C9887 /* CADemoUITests.m */,
+				226959F51C858528004C9887 /* Info.plist */,
+			);
+			path = CADemoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		226959C71C858528004C9887 /* CADemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 226959F81C858528004C9887 /* Build configuration list for PBXNativeTarget "CADemo" */;
+			buildPhases = (
+				226959C41C858528004C9887 /* Sources */,
+				226959C51C858528004C9887 /* Frameworks */,
+				226959C61C858528004C9887 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CADemo;
+			productName = CADemo;
+			productReference = 226959C81C858528004C9887 /* CADemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		226959E31C858528004C9887 /* CADemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 226959FB1C858528004C9887 /* Build configuration list for PBXNativeTarget "CADemoTests" */;
+			buildPhases = (
+				226959E01C858528004C9887 /* Sources */,
+				226959E11C858528004C9887 /* Frameworks */,
+				226959E21C858528004C9887 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				226959E61C858528004C9887 /* PBXTargetDependency */,
+			);
+			name = CADemoTests;
+			productName = CADemoTests;
+			productReference = 226959E41C858528004C9887 /* CADemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		226959EE1C858528004C9887 /* CADemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 226959FE1C858528004C9887 /* Build configuration list for PBXNativeTarget "CADemoUITests" */;
+			buildPhases = (
+				226959EB1C858528004C9887 /* Sources */,
+				226959EC1C858528004C9887 /* Frameworks */,
+				226959ED1C858528004C9887 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				226959F11C858528004C9887 /* PBXTargetDependency */,
+			);
+			name = CADemoUITests;
+			productName = CADemoUITests;
+			productReference = 226959EF1C858528004C9887 /* CADemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		226959C01C858528004C9887 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = __BWSOFT__;
+				TargetAttributes = {
+					226959C71C858528004C9887 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					226959E31C858528004C9887 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 226959C71C858528004C9887;
+					};
+					226959EE1C858528004C9887 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 226959C71C858528004C9887;
+					};
+				};
+			};
+			buildConfigurationList = 226959C31C858528004C9887 /* Build configuration list for PBXProject "CADemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 226959BF1C858528004C9887;
+			productRefGroup = 226959C91C858528004C9887 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				226959C71C858528004C9887 /* CADemo */,
+				226959E31C858528004C9887 /* CADemoTests */,
+				226959EE1C858528004C9887 /* CADemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		226959C61C858528004C9887 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				226959DE1C858528004C9887 /* LaunchScreen.storyboard in Resources */,
+				226959DB1C858528004C9887 /* Assets.xcassets in Resources */,
+				22695A021C858756004C9887 /* 2.png in Resources */,
+				226959D61C858528004C9887 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		226959E21C858528004C9887 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		226959ED1C858528004C9887 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		226959C41C858528004C9887 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				226959D91C858528004C9887 /* CADemo.xcdatamodeld in Sources */,
+				226959D31C858528004C9887 /* ViewController.m in Sources */,
+				226959D01C858528004C9887 /* AppDelegate.m in Sources */,
+				226959CD1C858528004C9887 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		226959E01C858528004C9887 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				226959E91C858528004C9887 /* CADemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		226959EB1C858528004C9887 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				226959F41C858528004C9887 /* CADemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		226959E61C858528004C9887 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 226959C71C858528004C9887 /* CADemo */;
+			targetProxy = 226959E51C858528004C9887 /* PBXContainerItemProxy */;
+		};
+		226959F11C858528004C9887 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 226959C71C858528004C9887 /* CADemo */;
+			targetProxy = 226959F01C858528004C9887 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		226959D41C858528004C9887 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				226959D51C858528004C9887 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		226959DC1C858528004C9887 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				226959DD1C858528004C9887 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		226959F61C858528004C9887 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		226959F71C858528004C9887 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		226959F91C858528004C9887 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CADemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bwsoft.CADemo.CADemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		226959FA1C858528004C9887 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CADemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bwsoft.CADemo.CADemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		226959FC1C858528004C9887 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = CADemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bwsoft.CADemo.CADemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CADemo.app/CADemo";
+			};
+			name = Debug;
+		};
+		226959FD1C858528004C9887 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = CADemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bwsoft.CADemo.CADemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CADemo.app/CADemo";
+			};
+			name = Release;
+		};
+		226959FF1C858528004C9887 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = CADemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bwsoft.CADemo.CADemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = CADemo;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		22695A001C858528004C9887 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = CADemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bwsoft.CADemo.CADemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = CADemo;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		226959C31C858528004C9887 /* Build configuration list for PBXProject "CADemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				226959F61C858528004C9887 /* Debug */,
+				226959F71C858528004C9887 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		226959F81C858528004C9887 /* Build configuration list for PBXNativeTarget "CADemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				226959F91C858528004C9887 /* Debug */,
+				226959FA1C858528004C9887 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		226959FB1C858528004C9887 /* Build configuration list for PBXNativeTarget "CADemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				226959FC1C858528004C9887 /* Debug */,
+				226959FD1C858528004C9887 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		226959FE1C858528004C9887 /* Build configuration list for PBXNativeTarget "CADemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				226959FF1C858528004C9887 /* Debug */,
+				22695A001C858528004C9887 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		226959D71C858528004C9887 /* CADemo.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				226959D81C858528004C9887 /* CADemo.xcdatamodel */,
+			);
+			currentVersion = 226959D81C858528004C9887 /* CADemo.xcdatamodel */;
+			path = CADemo.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 226959C01C858528004C9887 /* Project object */;
+}
